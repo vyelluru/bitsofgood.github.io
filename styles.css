@@ -1,0 +1,42 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1169a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #edeaead3;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 150px; /* Adjust the size of the picture as needed */
+    border-radius: 50%;
+}
+
+.name, .info, .currentWork {
+    color: #312d2d;
+}
+
+
+
+button {
+    background-color: #d9790c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1169a4;
+}
